@@ -1,0 +1,139 @@
+
+h1,p,label{
+    color: greenyellow;
+}
+.s1,.s2{
+    font-size: 20px;
+    color: red;
+}
+p.p1{
+    color: coral;
+}
+p.p2{
+    color: firebrick;
+}
+input[type="text"]{
+    width: 500px;
+}
+.ph .str{
+    font-size: 20px;
+    color: yellow;
+}
+.d1 ul li:first-child{
+    font-size: 30px;
+}
+.d1 ul li:last-child{
+    font-size: 30px;
+}
+.d1 ul li:nth-child(3){
+    font-size: 30px;
+}
+li:nth-last-child(2){
+    font-size: 30px;
+}
+.p3> span{
+    color: red;
+}
+.p3 .sp1+span{
+    font-size: 30px;
+}
+/*伪元素*/
+.piao-btn{
+    width: 200px;
+    height: 60px;
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid skyblue;
+    line-height: 60px;
+}
+.piao-btn:after{
+    display: block; /*块级元素*/
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    content: '999+';
+    text-align: center; /*文本水平剧中*/
+    line-height: 40px;  /*文本垂直剧中，值与height一样*/
+    font-size: 8px;
+    border-radius: 20px;    /*圆角*/
+    position: relative;
+    left: 170px;
+    top: -75px;
+    color: white;
+}
+.a1{
+    font-size: 30px;
+}
+.a1:link{
+    color: red;
+}
+.a1:active{
+    color: blue;
+}
+.a1:visited{
+    color: #05ff31;
+}
+.a1:hover{
+    color: black;
+}
+.gender:checked{
+    width: 60px;
+    height: 60px;
+}
+.selectAll-btn:checked{
+    width: 60px;
+    height: 60px;
+}
+.bianbian-btn{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 3px solid crimson;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: gray;
+}
+.bianbian-btn:hover{
+    background-color: crimson;
+    color: white;
+}
+.d2{
+    width: 200px;
+    height: 40px;
+    border: 1px solid darkseagreen;
+}
+.d2:hover{
+    border: none;
+    border-bottom: 3px solid skyblue;
+}
+.cart-goods{
+    display: none;
+    width: 400px;
+    height: 100px;
+    border: 2px solid red;
+    position: absolute;
+}
+.cart-btn:hover >.cart-goods{
+    display: block;
+}
+.box{
+    width: 50%;
+    height: 120px;
+    border: 3px solid lightsteelblue;
+}
+.logo-search {
+    width: 100%;
+    height: 86px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
